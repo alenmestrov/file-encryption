@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+#root {
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn-secondary {
+  color: #F1F3F5;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 12px 20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 8px;
+  border-radius: 24px;
+  background: #353C40;
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-Regular.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-Semibold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
 }
